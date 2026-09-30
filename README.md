@@ -274,26 +274,6 @@ If one player occupies all three positions of any winning combination, the game 
 
 If all nine positions are occupied without a winning combination, the game is a draw.
 
-## Project Structure
-
-A typical repository layout can be organized as:
-
-```text
-8051-tic-tac-toe/
-│
-├── README.md
-├── src/
-│   └── tictactoe.asm
-├── simulation/
-│   └── ...
-├── schematic/
-│   └── ...
-└── media/
-    └── ...
-```
-
-The exact filenames and folders may vary depending on how the project is uploaded.
-
 ## Building / Running
 
 This project is written in **8051 assembly language**.
@@ -342,12 +322,3 @@ Some natural improvements for a future version would be:
 The project was designed as a practical exercise in **resource-constrained embedded programming**. Instead of relying on a high-level language or external game libraries, the complete game logic, user input, state handling, AI, and display control are implemented at the 8051 assembly level.
 
 It demonstrates how a relatively simple microcontroller can combine **hardware interfacing, low-level programming, data structures, and decision-making logic** into a complete interactive system.
-
-## Author
-
-**Zaeed Ahmad**
-
-BSc in Electrical and Electronic Engineering, Islamic University of Technology (IUT)
-
-- GitHub: [@Sparkp1](https://github.com/Sparkp1)
-- LinkedIn: [Zaeed Ahmad](https://www.linkedin.com/in/zaeedahmad)
