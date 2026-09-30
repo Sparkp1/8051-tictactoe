@@ -24,33 +24,6 @@ The project demonstrates low-level embedded-system design using GPIO, internal R
   5. Take a side
 - Designed for operation on an **8051-compatible microcontroller**.
 
-## System Overview
-
-```text
-                    ┌──────────────────────┐
-                    │   8051 Microcontroller│
-                    │                      │
-                    │  Game Logic          │
-                    │  PvP / PvAI          │
-                    │  AI Decision Rules   │
-                    │  Board State (RAM)   │
-                    │  Keypad Scanning     │
-                    │  Debouncing          │
-                    └───────┬───────┬──────┘
-                            │       │
-                 ┌──────────┘       └──────────┐
-                 ▼                             ▼
-        ┌─────────────────┐          ┌─────────────────┐
-        │ Matrix Keypad   │          │ 9 Bi-Colour LEDs│
-        │   GPIO Scanned  │          │    3×3 Board    │
-        └─────────────────┘          └─────────────────┘
-
-                 ┌─────────────────┐
-                 │  Hardware Mode  │
-                 │     Switch      │
-                 └─────────────────┘
-```
-
 ## Hardware
 
 The implementation uses:
